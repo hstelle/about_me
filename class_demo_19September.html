@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title> 201 Class demo 19 Sept </title>
+  </head>
+
+  <body>
+    <p>What is your name?</p>
+    <p>What is your age?</p>
+    <p>What is your favorite food?</p>
+    <p>What is your favorite climate?</p>
+
+    <script>
+    var username = prompt('What is your name?');
+        if(username.length <= 3){
+          alert('Welcome, ' + username +'!  You have a short name!');
+        }
+        else{
+          alert('Hello, ' + username + '!');
+        }
+        console.log(username);
+
+    var age = prompt('How old are you?');
+        if(age<=21){
+          alert("No treats for you!");
+        }
+        else{
+          alert("Happy Holidays!");
+        }
+        console.log(age);
+
+    var food = prompt('What is your favorite food?');
+        if(food="pizza"){
+          alert("that's mine too!");
+        }
+        else{
+          alert("I've got to try it too!");
+        }
+        console.log(food);
+
+    var place = prompt("Where was your favorite vacation?");
+      if(place.length <= 10){
+          alert("I heard that place is beautiful!");
+        }
+      else{
+          alert("I'm putting it on my list!");
+      }
+      console.log(place);
+
+      alert('Hello, ' + username + '!  I went to ' + place + ' when i was ' + age + '!  We ate a lot of ' + food + ' as well!  Happy travels');
+    </script>
+  </body>
+</html>
