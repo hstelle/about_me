@@ -1,4 +1,14 @@
 span{
+  font-size:1.5;
+  font-family: cursive;
   color: red;
-  text-align: center;
-} 
+}
+u{
+  font-size:1.5em;
+  color:green;
+  font-family: sans-serif;
+}
+html{
+  padding: 3em;
+  border: 1.5em solid;
+}
