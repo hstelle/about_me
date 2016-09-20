@@ -1,14 +1,22 @@
-span{
-  font-size:1.5;
+.title {
+  font-size:3em;
   font-family: cursive;
   color: red;
 }
-u{
+
+.instructions{
   font-size:1.5em;
   color:green;
   font-family: sans-serif;
 }
+
+body{
+  padding: 1.5em;
+  border: solid 2.5em black;
+  text-align: center;
+}
+
 html{
-  padding: 3em;
-  border: 1.5em solid;
+  margin: 3em;
+  background-color: #FF9000;
 }
