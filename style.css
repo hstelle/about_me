@@ -1,22 +1,35 @@
 .title {
   font-size:3em;
   font-family: cursive;
-  color: red;
+  color: green;
 }
 
 .instructions{
   font-size:1.5em;
-  color:green;
   font-family: sans-serif;
 }
 
 body{
-  padding: 1.5em;
+  padding: 3em;
   border: solid 2.5em black;
   text-align: center;
 }
 
 html{
   margin: 3em;
-  background-color: #FF9000;
+}
+
+ul{
+  font-size: 1.25em;
+float: left;
+color:blue;
+}
+ol{
+  font-size: 1.25em;
+  float: right;
+  color: red;
+}
+li{
+  font-size: 1em;
+  color:black;
 }
