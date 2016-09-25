@@ -11,12 +11,11 @@
 
 body{
   padding: 3em;
-  border: solid 2.5em black;
   text-align: center;
 }
 
 html{
-  margin: 3em;
+  margin: 3em black;
 }
 
 ul{
