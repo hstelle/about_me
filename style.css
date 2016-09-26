@@ -2,33 +2,40 @@
   font-size:3em;
   font-family: cursive;
   color: green;
-}
-
-.instructions{
-  font-size:1.5em;
-  font-family: sans-serif;
-}
-
-body{
-  padding: 3em;
   text-align: center;
 }
 
+.instructions{
+  text-align: center;
+  font-size:1.5em;
+  font-family: sans-serif;
+}
 html{
   margin: 3em black;
 }
 
+body{
+  border: 3em black solid;
+  text-align: center;
+}
+
 ul{
   font-size: 1.25em;
-float: left;
-color:blue;
+  float: left;
+  color:blue;
 }
+
 ol{
   font-size: 1.25em;
   float: right;
   color: red;
 }
+
 li{
   font-size: 1em;
   color:black;
+}
+
+p{
+  text-align: center;
 }

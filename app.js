@@ -1,18 +1,18 @@
 'use strict';
 
 function questionName() {
-  var guessName = prompt('Is my name Henry?');
-  if (name.toLowerCase() === 'yes' || 'y') {
+  var name = prompt('Is my name Henry?');
+  if (name.toLowerCase() === 'y') {
     alert('Correctamundo');
   } else {
     alert('Please try again!');
-    console.log(guessName);
+    console.log(name);
   }
 }
 
 function questionColor() {
   var color = prompt('Do you think my favorite color is red?');
-  if (color.toUpperCase() === 'NO' || 'N') {
+  if (color.toUpperCase() === 'N') {
     alert('Try Again!');
   } else {
     alert('Good Job!');
@@ -22,7 +22,7 @@ function questionColor() {
 
 function questionFood() {
   var food = prompt('Is my favorite food pizza?');
-  if (food.toLowerCase() === 'yes' || 'y') {
+  if (food.toLowerCase() === 'y') {
     alert('Give this person a slice!');
   } else {
     alert('No pizza for you!');
@@ -32,7 +32,7 @@ function questionFood() {
 
 function questionKnow() {
   var know = prompt('Do I look like I know what I\'m doing?');
-  if (know.toUpperCase() === 'YES' || 'Y') {
+  if (know.toUpperCase() === 'Y') {
     alert('Well that\'s good!');
   } else {
     alert('well... ****');
@@ -41,11 +41,11 @@ function questionKnow() {
 }
 
 function questionDriving() {
-  var driving = prompt('Do I like driving');
-  if (driving.toUpperCase() === 'YES' || 'Y') {
-    alert('Have a good day!');
+  var driving = prompt('Do I like driving?');
+  if (driving.toUpperCase() === 'Y') {
+    alert('Sorry, try again!');
   } else {
-    alert('Get out of the left lane!');
+    alert('WOOOOOOOOO');
     console.log(driving);
   }
 }
