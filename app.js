@@ -57,7 +57,7 @@ function questionDriving() {
 
 var vacateTo = ['antigua','nyc','guatemala','italy'];
 function questionVacation() {
-  var vacate = prompt('Where have I gone in the world?');
+  var vacate = prompt('Where have I gone in the world?' + ' ' + vacateTo[0] + ' ' + vacateTo[1] + ' ' + vacateTo[2] + ' or ' + vacateTo[3] + '?');
   if(vacate.toLowerCase() === vacateTo[0]) {
     alert('nice! I\'ve also been to ' + vacateTo[1] + ', ' + vacateTo[2] + ', and ' + vacateTo[3] + '.');
 
